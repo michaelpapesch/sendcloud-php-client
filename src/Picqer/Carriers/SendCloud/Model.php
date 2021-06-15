@@ -12,7 +12,7 @@ abstract class Model
     /**
      * @var array The model's attributes
      */
-    protected $attributes = [];
+    public $attributes = [];
 
     /**
      * @var array The model's fillable attributes
